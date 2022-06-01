@@ -9,6 +9,14 @@ static void SeedGarage()
 {
     var garage = new Garage<Vehicle>(5) { new Vehicle("stoc"), new Vehicle("mog") };
     garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
+    garage.Add(new Vehicle("roro"));
 
     foreach (var g in garage)
     {
